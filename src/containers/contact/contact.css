@@ -1,0 +1,48 @@
+.contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.animated {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h3 {
+    color: var(--color-subtext);
+}
+
+.siren {
+    width: 30px;
+}
+
+.contact-content {
+    width: 80%;
+}
+
+.contact-content p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-style: 20px;
+    line-height: 27px;color: var(--color-text);
+    text-align: center;
+
+    margin-top: 1.5rem;
+}
+
+.pm-admin a {
+    color: var(--color-subtext);
+    transition: 0.5s;
+  }
+  
+  .pm-admin a:hover {
+    color: #fff;
+  }
