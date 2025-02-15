@@ -9,6 +9,7 @@ import slider5 from "./images/slider5.png";
 import slider6 from "./images/slider6.png";
 
 import gary from '../../assets/gary.png'
+import { Gallery } from "../../components";
 
 const CoolMarquee = () => {
   return (
@@ -38,6 +39,7 @@ const CoolMarquee = () => {
           <img src={slider6} alt="" />
         </div>
       </Marquee>
+
 
       <div className="testimonials__context">
         <div className="context-text">

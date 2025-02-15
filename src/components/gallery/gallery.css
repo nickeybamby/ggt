@@ -1,0 +1,46 @@
+.cloud__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cloud__text {
+    margin-right: 1.25rem;
+    width: 50%;
+  }
+  
+  .cloud__ref {
+    width: 50%;
+    margin: 10px;
+  }
+  
+  @media screen and (max-width: 1112px) {
+    .cloud__wrapper {
+      display: flex;
+      flex-direction: column;
+      width: auto;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .cloud__text {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 30px;
+      margin-right: 0;
+    }
+  
+    .cloud__text h2,
+    .cloud__text h3 {
+      width: 95%;
+      text-align: center;
+    }
+  
+    .cloud__ref {
+      margin: 10px 0;
+      width: 100%;
+    }
+  }
